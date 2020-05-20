@@ -1,13 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import '../css/Navbar.css'
 
 const Navbar = () => {
+
+  useEffect(() => {
+    var nav = document.querySelector(".nav-bar")
+    var sticky = nav.offsetTop
+
+    window.onscroll = () => {
+      if(window.pageYOffset >= sticky) {
+        nav.classList.add("sticky")
+      } else {
+        nav.classList.remove("sticky")
+      }
+    }
+  })
+
   return (
-    <div>
-      <a>Home</a>
-      <a>About</a>
-      <a>Portfolio</a>
-      <a>Blog</a>
-      <a>Contact</a>
+    <div className="nav-bar">
+      <a className="nav-link">Home</a>
+      <a className="nav-link">About</a>
+      <a className="nav-link">Work</a>
+      <a className="nav-link">Blog</a>
+      <a className="nav-link">Contact</a>
     </div>
   )
 }

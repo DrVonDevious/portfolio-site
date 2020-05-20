@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import './css/App.css'
 
 import Navbar from './containers/Navbar.js'
 import HeaderContainer from './containers/HeaderContainer.js'
