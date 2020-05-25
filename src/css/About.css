@@ -1,0 +1,17 @@
+.about-container {
+  width: 100%;
+}
+
+.about-name {
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.about-bio {
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

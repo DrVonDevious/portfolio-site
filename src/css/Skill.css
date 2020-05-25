@@ -1,0 +1,61 @@
+.skill-circle {
+  background-color: gray;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.skill-icon {
+  color: black;
+  position: relative;
+  top: 6px;
+  transform: translate(0, 0);
+}
+
+.skill-tag {
+  color: red;
+}
+
+.css {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+  transform: translate(-50%,0);
+}
+
+.html {
+  position: absolute;
+  left: 26%;
+  top: 104%;
+  transform: translate(-50%,0);
+}
+
+.javascript {
+  position: absolute;
+  left: 40%;
+  top: 120%;
+  transform: translate(-50%,0);
+}
+
+.react {
+  position: absolute;
+  left: 60%;
+  top: 120%;
+  transform: translate(-50%,0);
+}
+
+.redux {
+  position: absolute;
+  left: 74%;
+  top: 104%;
+  transform: translate(-50%,0);
+}
+
+.ror {
+  position: absolute;
+  left: 80%;
+  top: 80%;
+  transform: translate(-50%,0);
+}
+

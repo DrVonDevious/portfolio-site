@@ -1,15 +1,16 @@
 .about-container {
   width: 100%;
-  padding-top: 480px;
 }
 
 .profile-image {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+  margin-top: 200px;
 }
 
-.about {}
+.about {
+}
 
 .skill-1 {}
 
