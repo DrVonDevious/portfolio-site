@@ -1,0 +1,24 @@
+.about-container {
+  width: 100%;
+  padding-top: 480px;
+}
+
+.profile-image {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.about {}
+
+.skill-1 {}
+
+.skill-2 {}
+
+.skill-3 {}
+
+.skill-4 {}
+
+.skill-5 {}
+
+.skill-6 {}
