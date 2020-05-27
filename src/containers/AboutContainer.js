@@ -12,12 +12,12 @@ const AboutContainer = () => {
       <ProfileImage className="profile-image"/>
       <About className="about"/>
       <div>
-        <Skill name="css"/>
-        <Skill name="html"/>
-        <Skill name="javascript"/>
-        <Skill name="react"/>
-        <Skill name="redux"/>
-        <Skill name="ror"/>
+        <Skill name="css" title="CSS" stars={ 4 }/>
+        <Skill name="html" title="HTML" stars={ 5 }/>
+        <Skill name="javascript" title="JavaScript" stars={ 5 }/>
+        <Skill name="react" title="ReactJS" stars={ 4 }/>
+        <Skill name="redux" title="ReduxJS" stars={ 3 }/>
+        <Skill name="ror" title="Ruby on Rails" stars={ 3 }/>
       </div>
     </div>
   )
